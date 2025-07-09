@@ -1,3 +1,26 @@
+/* Need to initial variables as well */
 body {
-    color:#0f0f0f;
+    background-color:#0f0f0f;
 }
+
+* {
+   /*Add the reset stuff here*/ 
+}
+
+a, button  {
+    background-color:#5398be;
+    color:#f4f3ee;
+}
+
+header {
+
+}
+
+main {
+
+}
+
+footer {
+
+}
+
