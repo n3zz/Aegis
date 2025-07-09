@@ -1,10 +1,15 @@
 /* Need to initial variables as well */
 body {
     background-color:#0f0f0f;
+    color:#f4f3ee;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
 }
 
 * {
-   /*Add the reset stuff here*/ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 a, button  {
@@ -14,6 +19,12 @@ a, button  {
 
 header {
 
+}
+
+nav {
+    display:flex;
+    gap: 1rem;
+    text-decoration: none;
 }
 
 main {
