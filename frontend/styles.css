@@ -18,13 +18,17 @@ a, button  {
 }
 
 header {
+    display:flex;
+}
 
+#title {
+    font-family: 'Major Mono Display', monospace;
 }
 
 nav {
     display:flex;
     gap: 1rem;
-    text-decoration: none;
+    text-decoration: #f4f3ee;
 }
 
 main {
