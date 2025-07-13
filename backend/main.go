@@ -40,5 +40,5 @@ func moduleHandler(w http.ResponseWriter, r *http.Request) {
 func main() {
 	http.HandleFunc("/module/", moduleHandler)
 	fmt.Println("Server running on http://localhost:3000")
-	http.ListenAndServe(":3000", nil)
+	http.ListenAndServe(":3000/", nil)
 }
